@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <%=username %>
+    <%- include('header.ejs') %>
+    <%-html %>
+    <h2>
+        <%=title%>
+    </h2>
+    这是一个ejs模板引起
+    <ul>
+        <%for (let i=0; i < array.length; i++) {%>
+            <li>
+                <%=array[i]%>
+            </li>
+            <%}%>
+    </ul>
+</body>
+<script>
+</script>
+
+</html>
